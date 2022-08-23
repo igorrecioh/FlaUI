@@ -53,7 +53,11 @@ namespace FlaUI.TestUtilities
         /// Specifies the mode of the video recorder.
         /// Defaults to OnePerTest.
         /// </summary>
-        protected virtual VideoRecordingMode VideoRecordingMode => VideoRecordingMode.OnePerTest;
+        protected virtual VideoRecordingMode VideoRecordingMode
+        {
+            get;
+            set;
+        } 
 
         /// <summary>
         /// Path of the directory for the screenshots and videos for the tests.

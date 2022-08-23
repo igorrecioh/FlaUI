@@ -111,15 +111,6 @@
       <Project>{55fac715-04d7-47e9-a715-5bf3fe2b901f}</Project>
       <Name>FlaUI.UIA3</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TestApplications\WinFormsApplication\WinFormsApplication.csproj">
-      <Project>{faebbdd3-8230-4fc9-a316-05f5243c94da}</Project>
-      <Name>WinFormsApplication</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TestApplications\WpfApplication\WpfApplication.csproj">
-      <Project>{c8276299-fa43-409b-a969-ef030ab56224}</Project>
-      <Name>WpfApplication</Name>
-      <Private>False</Private>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
